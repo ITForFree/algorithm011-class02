@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a096118-d4a5-4034-a84e-89a07c41b049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/BinaryTreePreorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/JudgeAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/LevelOrderTraversalForNAryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/PreorderTraversalForNAryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/TheTopKFrequentElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_02/UglyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,8 +119,8 @@
         <entry file="file://$PROJECT_DIR$/Week_02/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="475">
-                <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <first_editor relative-caret-position="75">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -268,12 +254,12 @@
       <workItem from="1593508969720" duration="980000" />
       <workItem from="1593614357592" duration="1241000" />
       <workItem from="1593698599896" duration="281000" />
-      <workItem from="1593871110425" duration="5493000" />
+      <workItem from="1593871110425" duration="5869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28818000" />
+    <option name="totallyTimeSpent" value="29194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -493,8 +479,8 @@
     <entry file="file://$PROJECT_DIR$/Week_02/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <first_editor relative-caret-position="75">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
