@@ -9,7 +9,7 @@ import java.util.HashMap;
  * 因为 nums[0] + nums[1] = 2 + 7 = 9
  * 所以返回 [0, 1]
  */
-public class CalculateTwoSum {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         // 使用HashMap做缓存，时间复杂度：O(n)
         HashMap<Integer,Integer> hashMap = new HashMap<>();
