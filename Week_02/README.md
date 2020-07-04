@@ -30,11 +30,11 @@ HashMap是基于哈希表(散列表)，继承 AbstractMap，key唯一的，value
 * JDK7与JDK8中HashMap实现的最大区别就是对于冲突的处理方法。JDK 1.8 中引入了红黑树（查找时间复杂度为 O(logn)）,用数组+链表+红黑树的结构来优化这个问题。
 
 HashMap有以下集中重要属性：
-* loadFactor: 装载因子，用来衡量 HashMap 满的程度，默认为 0.75f；
-* threshold: 表示当 HashMap 的 size 大于 threshold 时会执行 resize 操作，threshold = capacity（HashMap中桶的数量，默认值为16）*loadFactor；
-* DEFAULT_INITIAL_CAPACITY : 默认初始化容量 16，容量必须为2的次方。默认的 hashmap 大小为16；
-* MAXIMUM_CAPACITY :最大的容量大小2^30；
-DEFAULT_LOAD_FACTOR: 默认 resize 的因子。0.75，即实际数量超过总数 DEFAULT_LOAD_FACTOR 的数量即会发生resize动作。
+* loadFactor：装载因子，用来衡量 HashMap 满的程度，默认为 0.75f；
+* threshold：表示当 HashMap 的 size 大于 threshold 时会执行 resize 操作，threshold = capacity（HashMap中桶的数量，默认值为16）*loadFactor；
+* DEFAULT_INITIAL_CAPACITY：默认初始化容量 16，容量必须为2的次方。默认的 hashmap 大小为16；
+* MAXIMUM_CAPACITY：最大的容量大小2^30；
+DEFAULT_LOAD_FACTOR：默认 resize 的因子。0.75，即实际数量超过总数 DEFAULT_LOAD_FACTOR 的数量即会发生resize动作。
 
 HashMap 中 get 及 put 方法源码如下：
 ```
