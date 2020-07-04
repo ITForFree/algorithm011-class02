@@ -119,8 +119,8 @@
         <entry file="file://$PROJECT_DIR$/Week_02/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="350">
-                <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+              <first_editor relative-caret-position="300">
+                <caret line="33" column="102" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
               </first_editor>
               <second_editor />
             </state>
@@ -254,12 +254,12 @@
       <workItem from="1593508969720" duration="980000" />
       <workItem from="1593614357592" duration="1241000" />
       <workItem from="1593698599896" duration="281000" />
-      <workItem from="1593871110425" duration="6022000" />
+      <workItem from="1593871110425" duration="6077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29347000" />
+    <option name="totallyTimeSpent" value="29402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -479,8 +479,8 @@
     <entry file="file://$PROJECT_DIR$/Week_02/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="350">
-            <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <first_editor relative-caret-position="300">
+            <caret line="33" column="102" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
           </first_editor>
           <second_editor />
         </state>
