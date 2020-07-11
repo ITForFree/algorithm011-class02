@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a096118-d4a5-4034-a84e-89a07c41b049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_03/BuildTreeFromPreorderAndInorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/CombineLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/CombineNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/CommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/FindMajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/PermuteNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_03/PermuteNumsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_03/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,8 +106,8 @@
         <entry file="file://$PROJECT_DIR$/Week_03/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="624">
-                <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+              <first_editor relative-caret-position="75">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -286,12 +275,12 @@
       <workItem from="1593698599896" duration="281000" />
       <workItem from="1593871110425" duration="6260000" />
       <workItem from="1594391872804" duration="3663000" />
-      <workItem from="1594456285464" duration="4117000" />
+      <workItem from="1594456285464" duration="4260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37365000" />
+    <option name="totallyTimeSpent" value="37508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -599,8 +588,8 @@
     <entry file="file://$PROJECT_DIR$/Week_03/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="624">
-            <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <first_editor relative-caret-position="75">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
           </first_editor>
           <second_editor />
         </state>
