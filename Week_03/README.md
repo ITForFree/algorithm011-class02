@@ -1,6 +1,6 @@
 学习笔记
 
-###递归
+### 递归
 
 Java递归的代码模板：
 ```
@@ -24,7 +24,7 @@ public void recur(int level, int param1, int param2, ...) {
 * 找到最近最简方法，将其拆解成可重复解决的问题（重复子问题）；
 * 数学归纳法思维。
 
-###分治
+### 分治
 
 Java分治的代码模板：
 ```
@@ -50,7 +50,7 @@ public void divideConquer(problem, param1, param2, ...) {
     // revert the current level states
 }
 ```
-###回溯
+### 回溯
 
 回溯法采用试错的思想，它尝试分步的去解决一个问题。在分步解决问题的过程中，
 当它通过尝试发现现有的分步答案不能得到有效的正确的解答的时候，它将取消
