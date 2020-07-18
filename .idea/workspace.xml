@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a096118-d4a5-4034-a84e-89a07c41b049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_04/BestTimeForSaleStocks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/ChangeForLemonade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/DistributeBiscuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/FindMinInRotateOrderedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/FindRotateOrderedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/FindTargetInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/JumpGameII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/MineSweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/NumsOfLands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/SimulateRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_04/WordLadderII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_02/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_03/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_04/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,26 +27,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_04/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="638">
-                <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+              <first_editor relative-caret-position="1900">
+                <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_04/SimulateRobot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -80,15 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="864">
               <caret line="85" column="28" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week_04/FindRotateOrderedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -124,8 +91,32 @@
         <entry file="file://$PROJECT_DIR$/Week_03/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="50">
-                <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
+              <first_editor relative-caret-position="374">
+                <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week_02/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="4" selection-start-column="4" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week_01/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-4626">
+                <caret column="4" selection-start-column="4" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,7 +150,6 @@
         <option value="$PROJECT_DIR$/Week_01/MoveArrayZero.java" />
         <option value="$PROJECT_DIR$/Week_01/MyCircularDeque.java" />
         <option value="$PROJECT_DIR$/Week_01/RemoveDuplicateElements.java" />
-        <option value="$PROJECT_DIR$/Week_01/README.md" />
         <option value="$PROJECT_DIR$/Week_01/RotateArray.java" />
         <option value="$PROJECT_DIR$/Week_02/TwoSum.java" />
         <option value="$PROJECT_DIR$/Week_02/JudgeAnagram.java" />
@@ -171,7 +161,6 @@
         <option value="$PROJECT_DIR$/Week_02/LevelOrderTraversalForNAryTree.java" />
         <option value="$PROJECT_DIR$/Week_02/UglyNumber.java" />
         <option value="$PROJECT_DIR$/Week_02/TheTopKFrequentElement.java" />
-        <option value="$PROJECT_DIR$/Week_02/README.md" />
         <option value="$PROJECT_DIR$/Week_03/CommonAncestor.java" />
         <option value="$PROJECT_DIR$/Week_03/BuildTreeFromPreorderAndInorder.java" />
         <option value="$PROJECT_DIR$/Week_03/FindMajorityElement.java" />
@@ -180,7 +169,6 @@
         <option value="$PROJECT_DIR$/Week_03/PermuteNumsII.java" />
         <option value="$PROJECT_DIR$/Week_03/CombineLetters.java" />
         <option value="$PROJECT_DIR$/Week_03/NQueens.java" />
-        <option value="$PROJECT_DIR$/Week_03/README.md" />
         <option value="$PROJECT_DIR$/Week_04/ChangeForLemonade.java" />
         <option value="$PROJECT_DIR$/Week_04/BestTimeForSaleStocks.java" />
         <option value="$PROJECT_DIR$/Week_04/DistributeBiscuit.java" />
@@ -197,6 +185,9 @@
         <option value="$PROJECT_DIR$/Week_04/MineSweeper.java" />
         <option value="$PROJECT_DIR$/Week_04/WordLadderII.java" />
         <option value="$PROJECT_DIR$/Week_04/README.md" />
+        <option value="$PROJECT_DIR$/Week_03/README.md" />
+        <option value="$PROJECT_DIR$/Week_02/README.md" />
+        <option value="$PROJECT_DIR$/Week_01/README.md" />
       </list>
     </option>
   </component>
@@ -217,6 +208,16 @@
             <path>
               <item name="algorithm011-class02" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm011-class02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm011-class02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm011-class02" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm011-class02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm011-class02" type="462c0819:PsiDirectoryNode" />
+              <item name="Week_02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm011-class02" type="b2602c69:ProjectViewProjectNode" />
@@ -306,18 +307,18 @@
       <workItem from="1594737108609" duration="749000" />
       <workItem from="1594912291820" duration="792000" />
       <workItem from="1594999635931" duration="2227000" />
-      <workItem from="1595059889784" duration="2660000" />
+      <workItem from="1595059889784" duration="2948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53568000" />
+    <option name="totallyTimeSpent" value="53856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2735395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2735395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,16 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_01/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_02/GroupAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -539,16 +530,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week_02/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="33" column="102" selection-start-line="33" selection-start-column="102" selection-end-line="33" selection-end-column="102" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -713,16 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_03/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_04/MineSweeper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
@@ -757,8 +728,38 @@
     <entry file="file://$PROJECT_DIR$/Week_04/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="638">
-            <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+          <first_editor relative-caret-position="1900">
+            <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_03/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_02/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="4" selection-start-column="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_01/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-4626">
+            <caret column="4" selection-start-column="4" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
