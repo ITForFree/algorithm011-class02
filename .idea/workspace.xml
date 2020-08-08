@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a096118-d4a5-4034-a84e-89a07c41b049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_07/ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/FriendCircles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/GenerateParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/MinimumGeneticMutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/NQueensAdvancedSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/SurroundedRegions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/TrieNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/TrieNodeForWordSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/WordLadderTwoEndedBFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_07/WordSearchII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_03/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_03/NQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week_07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_07/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/Week_07/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="563">
-                <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
+              <first_editor relative-caret-position="6175">
+                <caret line="346" column="1" selection-start-line="346" selection-start-column="1" selection-end-line="346" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -216,7 +199,6 @@
         <option value="$PROJECT_DIR$/Week_07/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/Week_07/WordLadderDoubleEndBFS.java" />
         <option value="$PROJECT_DIR$/Week_07/SudokuSolver.java" />
-        <option value="$PROJECT_DIR$/Week_07/README.md" />
         <option value="$PROJECT_DIR$/Week_07/FriendCircles.java" />
         <option value="$PROJECT_DIR$/Week_07/GenerateParentheses.java" />
         <option value="$PROJECT_DIR$/Week_07/MinimumGeneticMutation.java" />
@@ -224,10 +206,11 @@
         <option value="$PROJECT_DIR$/Week_07/WordLadderTwoEndedBFS.java" />
         <option value="$PROJECT_DIR$/Week_03/NQueens.java" />
         <option value="$PROJECT_DIR$/Week_07/NQueensAdvancedSearch.java" />
+        <option value="$PROJECT_DIR$/Week_07/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="40" />
     <option name="width" value="2800" />
@@ -348,12 +331,12 @@
       <workItem from="1596723504178" duration="604000" />
       <workItem from="1596815017050" duration="1518000" />
       <workItem from="1596858178761" duration="795000" />
-      <workItem from="1596872460787" duration="3489000" />
+      <workItem from="1596872460787" duration="4515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85932000" />
+    <option name="totallyTimeSpent" value="86958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -842,8 +825,8 @@
     <entry file="file://$PROJECT_DIR$/Week_07/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="563">
-            <caret line="137" column="54" selection-start-line="137" selection-start-column="54" selection-end-line="137" selection-end-column="54" />
+          <first_editor relative-caret-position="6175">
+            <caret line="346" column="1" selection-start-line="346" selection-start-column="1" selection-end-line="346" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

@@ -73,30 +73,33 @@ class Trie {
 
 代码模板：
 ```
-class UnionFind { 
-	private int count = 0; 
-	private int[] parent; 
-	public UnionFind(int n) { 
-		count = n; 
-		parent = new int[n]; 
-		for (int i = 0; i < n; i++) { 
-			parent[i] = i;
-		}
-	} 
-	public int find(int p) { 
-		while (p != parent[p]) { 
-			parent[p] = parent[parent[p]]; 
-			p = parent[p]; 
-		}
-		return p; 
-	}
-	public void union(int p, int q) { 
-		int rootP = find(p); 
-		int rootQ = find(q); 
-		if (rootP == rootQ) return; 
-		parent[rootP] = rootQ; 
-		count--;
-	}
+class UnionFind {
+    private int count = 0;
+    private int[] parent;
+
+    public UnionFind(int n) {
+        count = n;
+        parent = new int[n];
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+        }
+    }
+
+    public int find(int p) {
+        while (p != parent[p]) {
+            parent[p] = parent[parent[p]];
+            p = parent[p];
+        }
+        return p;
+    }
+
+    public void union(int p, int q) {
+        int rootP = find(p);
+        int rootQ = find(q);
+        if (rootP == rootQ) return;
+        parent[rootP] = rootQ;
+        count--;
+    }
 }
 ```
 
@@ -113,60 +116,60 @@ class UnionFind {
 代码模板：
 ```
 public int twoEndedBFS(String beginWord, String endWord, List<String> wordList) {
-        // 先将 wordList 放到哈希表里，便于判断某个单词是否在 wordList 里
-        Set<String> wordSet = new HashSet<>(wordList);
-        if (wordSet.size() == 0 || !wordSet.contains(endWord)) {
-            return 0;
-        }
-        // beginSet 和 endSet 交替使用，等价于单向 BFS 里使用队列，每次扩散都要加到总的 visited 里
-        Set<String> beginSet = new HashSet<String>(), endSet = new HashSet<String>();
-        // 包含起点，因此初始化的时候步数为 1
-        int len = 1;
-        int strLen = beginWord.length();
-        Set<String> visited = new HashSet<String>();
-
-        beginSet.add(beginWord);
-        endSet.add(endWord);
-
-        while (!beginSet.isEmpty() && !endSet.isEmpty()) {
-            // 优先选择小的哈希表进行扩散，考虑到的情况更少
-            if (beginSet.size() > endSet.size()) {
-                Set<String> set = beginSet;
-                beginSet = endSet;
-                endSet = set;
-            }
-            // nextLevelVisited 在扩散完成以后，会成为新的 beginSet
-            Set<String> nextLevelVisited = new HashSet<String>();
-            for (String word : beginSet) {
-                char[] chars = word.toCharArray();
-                for (int i = 0; i < chars.length; i++) {
-                    char old = chars[i];
-                    for (char c = 'a'; c <= 'z'; c++) {
-                        if (old == c) {
-                            continue;
-                        }
-                        chars[i] = c;
-                        String nextWord = String.valueOf(chars);
-                        if (wordSet.contains(nextWord)) {
-                            if (endSet.contains(nextWord)) {
-                                return len + 1;
-                            }
-                            if (!visited.contains(nextWord) && wordList.contains(nextWord)) {
-                                nextLevelVisited.add(nextWord);
-                                visited.add(nextWord);
-                            }
-                        }
-                        // 恢复状态
-                        chars[i] = old;
-                    }
-                }
-            }
-            // 表示从 begin 这一侧向外扩散了一层
-            beginSet = nextLevelVisited;
-            len++;
-        }
+    // 先将 wordList 放到哈希表里，便于判断某个单词是否在 wordList 里
+    Set<String> wordSet = new HashSet<>(wordList);
+    if (wordSet.size() == 0 || !wordSet.contains(endWord)) {
         return 0;
     }
+    // beginSet 和 endSet 交替使用，等价于单向 BFS 里使用队列，每次扩散都要加到总的 visited 里
+    Set<String> beginSet = new HashSet<String>(), endSet = new HashSet<String>();
+    // 包含起点，因此初始化的时候步数为 1
+    int len = 1;
+    int strLen = beginWord.length();
+    Set<String> visited = new HashSet<String>();
+
+    beginSet.add(beginWord);
+    endSet.add(endWord);
+
+    while (!beginSet.isEmpty() && !endSet.isEmpty()) {
+        // 优先选择小的哈希表进行扩散，考虑到的情况更少
+        if (beginSet.size() > endSet.size()) {
+            Set<String> set = beginSet;
+            beginSet = endSet;
+            endSet = set;
+        }
+        // nextLevelVisited 在扩散完成以后，会成为新的 beginSet
+        Set<String> nextLevelVisited = new HashSet<String>();
+        for (String word : beginSet) {
+            char[] chars = word.toCharArray();
+            for (int i = 0; i < chars.length; i++) {
+                char old = chars[i];
+                for (char c = 'a'; c <= 'z'; c++) {
+                    if (old == c) {
+                        continue;
+                    }
+                    chars[i] = c;
+                    String nextWord = String.valueOf(chars);
+                    if (wordSet.contains(nextWord)) {
+                        if (endSet.contains(nextWord)) {
+                            return len + 1;
+                        }
+                        if (!visited.contains(nextWord) && wordList.contains(nextWord)) {
+                            nextLevelVisited.add(nextWord);
+                            visited.add(nextWord);
+                        }
+                    }
+                    // 恢复状态
+                    chars[i] = old;
+                }
+            }
+        }
+        // 表示从 begin 这一侧向外扩散了一层
+        beginSet = nextLevelVisited;
+        len++;
+    }
+    return 0;
+}
 ```
 ##### 启发式搜索（Heuristic Search)（A*)
 
@@ -179,195 +182,169 @@ public int twoEndedBFS(String beginWord, String endWord, List<String> wordList) 
 代码模板：
 
 ```
-public class AStar
-	{
-		public final static int BAR = 1; // 障碍值
-		public final static int PATH = 2; // 路径
-		public final static int DIRECT_VALUE = 10; // 横竖移动代价
-		public final static int OBLIQUE_VALUE = 14; // 斜移动代价
-		
-		Queue<Node> openList = new PriorityQueue<Node>(); // 优先队列(升序)
-		List<Node> closeList = new ArrayList<Node>();
-		
-		/**
-		 * 开始算法
-		 */
-		public void start(MapInfo mapInfo)
-		{
-			if(mapInfo==null) return;
-			// clean
-			openList.clear();
-			closeList.clear();
-			// 开始搜索
-			openList.add(mapInfo.start);
-			moveNodes(mapInfo);
-		}
+public class AStar {
+    public final static int BAR = 1; // 障碍值
+    public final static int PATH = 2; // 路径
+    public final static int DIRECT_VALUE = 10; // 横竖移动代价
+    public final static int OBLIQUE_VALUE = 14; // 斜移动代价
 
-		/**
-		 * 移动当前结点
-		 */
-		private void moveNodes(MapInfo mapInfo)
-		{
-			while (!openList.isEmpty())
-			{
-				Node current = openList.poll();
-				closeList.add(current);
-				addNeighborNodeInOpen(mapInfo,current);
-				if (isCoordInClose(mapInfo.end.coord))
-				{
-					drawPath(mapInfo.maps, mapInfo.end);
-					break;
-				}
-			}
-		}
-		
-		/**
-		 * 在二维数组中绘制路径
-		 */
-		private void drawPath(int[][] maps, Node end)
-		{
-			if(end==null||maps==null) return;
-			System.out.println("总代价：" + end.G);
-			while (end != null)
-			{
-				Coord c = end.coord;
-				maps[c.y][c.x] = PATH;
-				end = end.parent;
-			}
-		}
+    Queue<Node> openList = new PriorityQueue<Node>(); // 优先队列(升序)
+    List<Node> closeList = new ArrayList<Node>();
 
-		/**
-		 * 添加所有邻结点到open表
-		 */
-		private void addNeighborNodeInOpen(MapInfo mapInfo,Node current)
-		{
-			int x = current.coord.x;
-			int y = current.coord.y;
-			// 左
-			addNeighborNodeInOpen(mapInfo,current, x - 1, y, DIRECT_VALUE);
-			// 上
-			addNeighborNodeInOpen(mapInfo,current, x, y - 1, DIRECT_VALUE);
-			// 右
-			addNeighborNodeInOpen(mapInfo,current, x + 1, y, DIRECT_VALUE);
-			// 下
-			addNeighborNodeInOpen(mapInfo,current, x, y + 1, DIRECT_VALUE);
-			// 左上
-			addNeighborNodeInOpen(mapInfo,current, x - 1, y - 1, OBLIQUE_VALUE);
-			// 右上
-			addNeighborNodeInOpen(mapInfo,current, x + 1, y - 1, OBLIQUE_VALUE);
-			// 右下
-			addNeighborNodeInOpen(mapInfo,current, x + 1, y + 1, OBLIQUE_VALUE);
-			// 左下
-			addNeighborNodeInOpen(mapInfo,current, x - 1, y + 1, OBLIQUE_VALUE);
-		}
+    /**
+     * 开始算法
+     */
+    public void start(MapInfo mapInfo) {
+        if (mapInfo == null) return;
+        // clean
+        openList.clear();
+        closeList.clear();
+        // 开始搜索
+        openList.add(mapInfo.start);
+        moveNodes(mapInfo);
+    }
 
-		/**
-		 * 添加一个邻结点到open表
-		 */
-		private void addNeighborNodeInOpen(MapInfo mapInfo,Node current, int x, int y, int value)
-		{
-			if (canAddNodeToOpen(mapInfo,x, y))
-			{
-				Node end=mapInfo.end;
-				Coord coord = new Coord(x, y);
-				int G = current.G + value; // 计算邻结点的G值
-				Node child = findNodeInOpen(coord);
-				if (child == null)
-				{
-					int H=calcH(end.coord,coord); // 计算H值
-					if(isEndNode(end.coord,coord))
-					{
-						child=end;
-						child.parent=current;
-						child.G=G;
-						child.H=H;
-					}
-					else
-					{
-						child = new Node(coord, current, G, H);
-					}
-					openList.add(child);
-				}
-				else if (child.G > G)
-				{
-					child.G = G;
-					child.parent = current;
-					openList.add(child);
-				}
-			}
-		}
-	
-		/**
-		 * 从Open列表中查找结点
-		 */
-		private Node findNodeInOpen(Coord coord)
-		{
-			if (coord == null || openList.isEmpty()) return null;
-			for (Node node : openList)
-			{
-				if (node.coord.equals(coord))
-				{
-					return node;
-				}
-			}
-			return null;
-		}
+    /**
+     * 移动当前结点
+     */
+    private void moveNodes(MapInfo mapInfo) {
+        while (!openList.isEmpty()) {
+            Node current = openList.poll();
+            closeList.add(current);
+            addNeighborNodeInOpen(mapInfo, current);
+            if (isCoordInClose(mapInfo.end.coord)) {
+                drawPath(mapInfo.maps, mapInfo.end);
+                break;
+            }
+        }
+    }
 
-		/**
-		 * 计算H的估值：“曼哈顿”法，坐标分别取差值相加
-		 */
-		private int calcH(Coord end,Coord coord)
-		{
-			return Math.abs(end.x - coord.x)
-					+ Math.abs(end.y - coord.y);
-		}
-		
-		/**
-		 * 判断结点是否是最终结点
-		 */
-		private boolean isEndNode(Coord end,Coord coord)
-		{
-			return coord != null && end.equals(coord);
-		}
+    /**
+     * 在二维数组中绘制路径
+     */
+    private void drawPath(int[][] maps, Node end) {
+        if (end == null || maps == null) return;
+        System.out.println("总代价：" + end.G);
+        while (end != null) {
+            Coord c = end.coord;
+            maps[c.y][c.x] = PATH;
+            end = end.parent;
+        }
+    }
 
-		/**
-		 * 判断结点能否放入Open列表
-		 */
-		private boolean canAddNodeToOpen(MapInfo mapInfo,int x, int y)
-		{
-			// 是否在地图中
-			if (x < 0 || x >= mapInfo.width || y < 0 || y >= mapInfo.hight) return false;
-			// 判断是否是不可通过的结点
-			if (mapInfo.maps[y][x] == BAR) return false;
-			// 判断结点是否存在close表
-			if (isCoordInClose(x, y)) return false;
-			return true;
-		}
+    /**
+     * 添加所有邻结点到open表
+     */
+    private void addNeighborNodeInOpen(MapInfo mapInfo, Node current) {
+        int x = current.coord.x;
+        int y = current.coord.y;
+        // 左
+        addNeighborNodeInOpen(mapInfo, current, x - 1, y, DIRECT_VALUE);
+        // 上
+        addNeighborNodeInOpen(mapInfo, current, x, y - 1, DIRECT_VALUE);
+        // 右
+        addNeighborNodeInOpen(mapInfo, current, x + 1, y, DIRECT_VALUE);
+        // 下
+        addNeighborNodeInOpen(mapInfo, current, x, y + 1, DIRECT_VALUE);
+        // 左上
+        addNeighborNodeInOpen(mapInfo, current, x - 1, y - 1, OBLIQUE_VALUE);
+        // 右上
+        addNeighborNodeInOpen(mapInfo, current, x + 1, y - 1, OBLIQUE_VALUE);
+        // 右下
+        addNeighborNodeInOpen(mapInfo, current, x + 1, y + 1, OBLIQUE_VALUE);
+        // 左下
+        addNeighborNodeInOpen(mapInfo, current, x - 1, y + 1, OBLIQUE_VALUE);
+    }
 
-		/**
-		 * 判断坐标是否在close表中
-		 */
-		private boolean isCoordInClose(Coord coord)
-		{
-			return coord!=null&&isCoordInClose(coord.x, coord.y);
-		}
+    /**
+     * 添加一个邻结点到open表
+     */
+    private void addNeighborNodeInOpen(MapInfo mapInfo, Node current, int x, int y, int value) {
+        if (canAddNodeToOpen(mapInfo, x, y)) {
+            Node end = mapInfo.end;
+            Coord coord = new Coord(x, y);
+            int G = current.G + value; // 计算邻结点的G值
+            Node child = findNodeInOpen(coord);
+            if (child == null) {
+                int H = calcH(end.coord, coord); // 计算H值
+                if (isEndNode(end.coord, coord)) {
+                    child = end;
+                    child.parent = current;
+                    child.G = G;
+                    child.H = H;
+                } else {
+                    child = new Node(coord, current, G, H);
+                }
+                openList.add(child);
+            } else if (child.G > G) {
+                child.G = G;
+                child.parent = current;
+                openList.add(child);
+            }
+        }
+    }
 
-		/**
-		 * 判断坐标是否在close表中
-		 */
-		private boolean isCoordInClose(int x, int y)
-		{
-			if (closeList.isEmpty()) return false;
-			for (Node node : closeList)
-			{
-				if (node.coord.x == x && node.coord.y == y)
-				{
-					return true;
-				}
-			}
-			return false;
-		}
-	}
+    /**
+     * 从Open列表中查找结点
+     */
+    private Node findNodeInOpen(Coord coord) {
+        if (coord == null || openList.isEmpty()) return null;
+        for (Node node : openList) {
+            if (node.coord.equals(coord)) {
+                return node;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * 计算H的估值：“曼哈顿”法，坐标分别取差值相加
+     */
+    private int calcH(Coord end, Coord coord) {
+        return Math.abs(end.x - coord.x)
+                + Math.abs(end.y - coord.y);
+    }
+
+    /**
+     * 判断结点是否是最终结点
+     */
+    private boolean isEndNode(Coord end, Coord coord) {
+        return coord != null && end.equals(coord);
+    }
+
+    /**
+     * 判断结点能否放入Open列表
+     */
+    private boolean canAddNodeToOpen(MapInfo mapInfo, int x, int y) {
+        // 是否在地图中
+        if (x < 0 || x >= mapInfo.width || y < 0 || y >= mapInfo.hight) return false;
+        // 判断是否是不可通过的结点
+        if (mapInfo.maps[y][x] == BAR) return false;
+        // 判断结点是否存在close表
+        if (isCoordInClose(x, y)) return false;
+        return true;
+    }
+
+    /**
+     * 判断坐标是否在close表中
+     */
+    private boolean isCoordInClose(Coord coord) {
+        return coord != null && isCoordInClose(coord.x, coord.y);
+    }
+
+    /**
+     * 判断坐标是否在close表中
+     */
+    private boolean isCoordInClose(int x, int y) {
+        if (closeList.isEmpty()) return false;
+        for (Node node : closeList) {
+            if (node.coord.x == x && node.coord.y == y) {
+                return true;
+            }
+        }
+        return false;
+    }
+}
 ```
 
 #### AVL树
