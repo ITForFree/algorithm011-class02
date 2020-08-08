@@ -8,37 +8,40 @@ import java.util.*;
  * 示例:
  * 输入: 4
  * 输出: [
- *  [".Q..",  // 解法 1
- *   "...Q",
- *   "Q...",
- *   "..Q."],
- *
- *  ["..Q.",  // 解法 2
- *   "Q...",
- *   "...Q",
- *   ".Q.."]
+ * [".Q..",  // 解法 1
+ * "...Q",
+ * "Q...",
+ * "..Q."],
+ * <p>
+ * ["..Q.",  // 解法 2
+ * "Q...",
+ * "...Q",
+ * ".Q.."]
  * ]
  * 解释: 4 皇后问题存在两个不同的解法。
+ * <p>
+ * <p>
  * 提示：
+ * <p>
  * 皇后，是国际象棋中的棋子，意味着国王的妻子。皇后只做一件事，那就是“吃子”。当她遇见可以吃的棋子时，就迅速冲上去吃掉棋子。当然，她横、竖、斜都可走一到七步，可进可退。（引用自 百度百科 - 皇后 ）
  */
-public class NQueens {
+public class NQueensAdvancedSearch {
     private Set<Integer> col = new HashSet<>();
     private Set<Integer> pie = new HashSet<>();
     private Set<Integer> na = new HashSet<>();
+
     public void dfs(List<List<String>> res, List<String> list, int row, int n) {
         // terminator
-        if(row == n) {
+        if (row == n) {
             res.add(new ArrayList<>(list));
-            return;
         }
         // current level
-        for(int i = 0; i < n; i++) {
-            if(col.contains(i) || pie.contains(row + i) || na.contains(row - i)) {
+        for (int i = 0; i < n; i++) {
+            if (col.contains(i) || pie.contains(row + i) || na.contains(row - i)) {
                 continue;
             }
 
-            // construct the output
+            // construce the output
             char[] charArray = new char[n];
             Arrays.fill(charArray, '.');
             charArray[i] = 'Q';
@@ -53,16 +56,17 @@ public class NQueens {
             // drill down
             dfs(res, list, row + 1, n);
 
-            // reverse states
+            // reverse the state
             list.remove(rowString);
             col.remove(i);
             pie.remove(row + i);
             na.remove(row - i);
         }
     }
+
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> res = new ArrayList<>();
-        dfs(res, new ArrayList(), 0, n);
+        dfs(res, new ArrayList<>(), 0, n);
         return res;
     }
 }
