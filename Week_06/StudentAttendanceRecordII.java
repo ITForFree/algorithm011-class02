@@ -27,6 +27,7 @@ public class StudentAttendanceRecordII {
         dp[3] = 7;
         for(int i = 4; i <= n; i++) {
             // M - dp[i-4] 为取余的特殊处理，防止 n 比较大时出现负数
+            // 也可用 dp[i] = (2 * dp[i-1] - dp[i-4] + M) % M，要加一个 M 不然 2*dp[i-1] - dp[i-4] 可能是负数，导致最后sum的结果不对
             dp[i] = (2 * (dp[i-1])) % M  + (M - dp[i-4]) % M;
         }
         // 没有 A 时，那么可奖励字符串的数目就是 dp[n]
