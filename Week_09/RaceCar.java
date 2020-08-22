@@ -30,7 +30,7 @@ public class RaceCar {
         int[] dp = new int[target + 1];
         for (int i = 1; i <= target; i++){
             dp[i] = Integer.MAX_VALUE;
-            for (int forward = 1; (1 << forward) - 1 < 2 * i; forward++) { // 2 * i
+            for (int forward = 1; (1 << forward) - 1 < 2 * i; forward++) {
                 int j = (1 << forward) - 1;
                 // 刚好走forward步后到达了目标位置i
                 if(j == i)

@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a096118-d4a5-4034-a84e-89a07c41b049" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_09/DecodeWaysForDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/DistinctSubsequences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/FindAllAnagramsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/FirstUniqueCharacterInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/LongestValidParenthesesForDP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/RaceCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/ReverseOnlyLetters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/ReverseStringII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/ReverseWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/ReverseWordsInStringIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/StringToIntegerAtoI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/ValidPalindromeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_09/WildcardMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm011-class02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_09/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week_09/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3a096118-d4a5-4034-a84e-89a07c41b049" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,16 +70,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week_09/RaceCar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
+            <state relative-caret-position="314">
               <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week_09/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -333,16 +313,15 @@
       <workItem from="1597845588783" duration="3335000" />
       <workItem from="1597932719505" duration="2169000" />
       <workItem from="1598020167143" duration="2182000" />
-      <workItem from="1598085811380" duration="3566000" />
+      <workItem from="1598085811380" duration="4089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123109000" />
+    <option name="totallyTimeSpent" value="123632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2352132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -810,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week_09/RaceCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week_09/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -824,6 +796,13 @@
             <caret line="166" column="59" selection-start-line="166" selection-start-column="59" selection-end-line="166" selection-end-column="59" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week_09/RaceCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
         </state>
       </provider>
     </entry>
